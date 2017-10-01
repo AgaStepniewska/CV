@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700,900|Playfair+Display:400i");
+@import url("https://fonts.googleapis.com/css?family=Cutive|Fontdiner+Swanky");
+body {
+  box-sizing: border-box;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  background-image: url(img.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+[class*="col-"] {
+  Float: left;
+  min-height: 1px;
+  text-align: center;
+  margin: 0;
+  position: relative; }
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+header {
+  min-height: 50vh;
+  padding-bottom: 10px; }
+  header h1 {
+    text-align: center;
+    color: #ad2748;
+    padding-top: 3%;
+    font-size: 50px; }
+  header p {
+    max-width: 80%;
+    text-align: justify;
+    margin: 2% auto 0;
+    font-size: 16px; }
+
+section,
+header,
+footer {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: #d6d8db; }
+
+.fa {
+  padding: 5px;
+  font-size: 26px;
+  color: #ad2748; }
+
+h1 {
+  margin-bottom: 0;
+  color: #ad2748; }
+
+h2 {
+  font-size: 18px; }
+
+#contact,
+.techskills,
+.workhist,
+.edu {
+  border-top: 1px solid #603046; }
+
+#contact {
+  min-height: 30vh; }
+
+.links {
+  margin-top: 5%;
+  word-spacing: 20px; }
+
+a {
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    text-decoration: underline;
+    color: #603046; }
+    a:hover .fa {
+      color: #603046; }
+
+.contdet {
+  text-align: center; }
+  .contdet h2 {
+    color: #ad2748; }
+  .contdet p {
+    margin: 1%;
+    line-height: 25px; }
+    .contdet p .fa {
+      font-size: 20px;
+      padding: 5px; }
+
+#skills {
+  margin-top: 3%;
+  min-height: 60vh; }
+  #skills h1 {
+    margin-top: 0; }
+  #skills .tech {
+    text-align: left; }
+    #skills .tech h2,
+    #skills .tech p {
+      margin-left: 5%;
+      max-width: 90%; }
+  #skills .techright h2,
+  #skills .techright p {
+    margin-left: 5%; }
+  #skills .moreskills {
+    text-align: justify;
+    word-spacing: 3px; }
+    #skills .moreskills ul {
+      margin-left: 5%; }
+      #skills .moreskills ul li {
+        padding-top: 5px; }
+
+#education p,
+#education h2,
+#education ul,
+#work p,
+#work h2,
+#work ul {
+  text-align: justify;
+  max-width: 90%; }
+
+#skills i,
+#work i,
+#education i {
+  padding: 20px 30px 5px 30px; }
+
+#work {
+  padding-bottom: 2%; }
+  #work p {
+    margin: 10%; }
+  #work h2 {
+    margin: 3% 0;
+    max-width: 90%; }
+  #work ul li {
+    padding-top: 5px; }
+  #work ul a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: black;
+    text-decoration: none; }
+    #work ul a:hover {
+      text-decoration: underline;
+      color: #603046; }
+
+#education {
+  padding-bottom: 2%; }
+  #education .col-3 p {
+    margin-left: 10%; }
+  #education .displaying {
+    display: flex;
+    flex-direction: row; }
+    #education .displaying p {
+      margin-left: 1%; }
+
+footer {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3% auto 0; }
+  footer p {
+    text-align: center; }
+
+@media(min-width: 768px) and (max-width: 1199px), (max-width: 768px) {
+  section h1 {
+    font-size: 20px; }
+
+  header {
+    padding-bottom: 1%; }
+    header h1 {
+      font-size: 40px; }
+    header p {
+      font-size: 14px;
+      line-height: 18px; }
+
+  #contact h2,
+  #contact .fa {
+    font-size: 17px; }
+  #contact a {
+    font-size: 14px; }
+  #contact .links {
+    word-spacing: 2px;
+    padding-bottom: 3%; }
+
+  .moreskills {
+    font-size: 14px; }
+    .moreskills ul {
+      padding-left: 0;
+      padding-bottom: 10px;
+      max-width: 98%;
+      margin: auto;
+      word-spacing: 1px; }
+
+  #work .col-3 p,
+  #education .col-3 p {
+    font-size: 13px;
+    text-align: left; }
+  #work .col-9 h2,
+  #education .col-9 h2 {
+    font-size: 15px;
+    text-align: left;
+    max-width: 80%; }
+  #work ul,
+  #education ul {
+    font-size: 14px;
+    padding-left: 0;
+    max-width: 96%;
+    text-align: left; }
+    #work ul a,
+    #education ul a {
+      font-size: 14px;
+      line-height: 16px; }
+  #work p,
+  #education p {
+    font-size: 12px; }
+
+  #education .displaying {
+    display: flex;
+    flex-direction: column; }
+  #education h2 {
+    margin-bottom: 0; } }
+@media(min-width: 768px) and (max-width: 1199px) {
+  .col-m-1 {
+    width: 8.33%; }
+
+  .col-m-2 {
+    width: 16.66%; }
+
+  .col-m-3 {
+    width: 25%; }
+
+  .col-m-4 {
+    width: 33.33%; }
+
+  .col-m-5 {
+    width: 41.66%; }
+
+  .col-m-6 {
+    width: 50%; }
+
+  .col-m-7 {
+    width: 58.33%; }
+
+  .col-m-8 {
+    width: 66.66%; }
+
+  .col-m-9 {
+    width: 75%; }
+
+  .col-m-10 {
+    width: 83.33%; }
+
+  .col-m-11 {
+    width: 91.66%; }
+
+  .col-m-12 {
+    width: 100%; }
+
+  .atributes {
+    max-width: 80%; } }
+@media(max-width: 768px) {
+  .col-s-1 {
+    width: 8.33%; }
+
+  .col-s-2 {
+    width: 16.66%; }
+
+  .col-s-3 {
+    width: 25%; }
+
+  .col-s-4 {
+    width: 33.33%; }
+
+  .col-s-5 {
+    width: 41.66%; }
+
+  .col-s-6 {
+    width: 50%; }
+
+  .col-s-7 {
+    width: 58.33%; }
+
+  .col-s-8 {
+    width: 66.66%; }
+
+  .col-s-9 {
+    width: 75%; }
+
+  .col-s-10 {
+    width: 83.33%; }
+
+  .col-s-11 {
+    width: 91.66%; }
+
+  .col-s-12 {
+    width: 100%; }
+
+  #work h2,
+  #education h2 {
+    margin-left: 4%; } }
