@@ -62,8 +62,8 @@ body {
   clear: both; }
 
 header {
-  min-height: 50vh;
-  padding-bottom: 10px; }
+  min-height: 30vh;
+  padding-bottom: 2%; }
   header h1 {
     text-align: center;
     color: #ad2748;
